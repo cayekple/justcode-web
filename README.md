@@ -6,7 +6,7 @@ In HTML 5, the declaration is simplified.
 <!DOCTYPE html>
 ```
 
-## <html>
+### <html>
 The ``<html>`` tag is the root of an HTML document.
   
 ## <head>
