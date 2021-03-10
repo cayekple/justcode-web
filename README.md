@@ -6,25 +6,25 @@ In HTML 5, the declaration is simplified.
 <!DOCTYPE html>
 ```
 
-## <html>
+## html
 
 The ``<html>`` tag is the root of an HTML document.
 
-## <head>
+## head
 
 The ``<head>`` element is a container for metadata about the website.
 
-## <title>
+## title
 
 The ``<title>`` tag defines the title of the HTML document. The title must be text-only, and it is shown in the web browser's title.
 
 The ``<title>`` tag is required in HTML documents.
 
-## <body>
+## body
 
 The ``<body>`` tag defines the document's body.
 
-## <header>
+## header
 
 The ``<header>`` element represents a container for introductory content or a set of navigational links.
 
@@ -34,13 +34,13 @@ A ``<header>`` element typically contains:
 - logo or icon
 - authorship information
 
-## <main>
+## main
 
 The ``<main>`` tag specifies the main content of a document.
 
 The content inside the ``<main>`` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 
-## <footer>
+## footer
 
 The ``<footer>`` tag defines a footer for a document or section.
 
