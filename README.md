@@ -106,3 +106,5 @@ You can have several ``<footer>`` elements in one document.
   <p><a href="mailto:example@example.com">example@example.com</a></p>
 </footer>
 ```
+### html cheatsheet
+![cheatsheet](res/html-cheatsheet.jpg)
