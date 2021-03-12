@@ -1,6 +1,7 @@
 body{
     background-color: #fdfdfd;
     margin:0;
+    color: #314d52;
 }
 #header{
     text-align: center;
@@ -26,4 +27,51 @@ body{
 }
 .color-secondary{
     color: #314d52;
+}
+
+.main{
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sidebar{
+    margin: 30px;
+}
+
+.sidebar >ul li{ 
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.container{
+    padding: 10px 10%;
+    margin-bottom: 20px;
+}
+
+.teaser{
+    padding: 5px 5px 10px 5px; /*top,right,bottom,left*/
+}
+
+.shadow{
+    box-shadow: 0 10px 40px -10px rgba(0, 64, 128, .2); /*.2 is the % color of transparency*/
+}
+
+.summary{
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.summary > h3, .summary > p{
+    padding: 0 5px;
+}
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    margin: 15px 25%;
 }

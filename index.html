@@ -11,30 +11,33 @@
       <p class="brand-teaser color-secondary">Keep Coding</p>
     </header>
 
-    <main>
+    <div class="container"> <!--div is placed around the main and aside to control the styling both in the page-->
+    <main class="main">
       <!-- Main Content -->
-      <h2>Most Popular Browsers</h2>
+      <header class="teaser">
+      <h2 class="color-primary">Most Popular Browsers</h2>
       <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+    </header>
 
-      <article>
-        <h3>Google Chrome</h3>
+      <article class="summary shadow">
+        <h3 class="color-primary">Google Chrome</h3>
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
 
-      <article>
-        <h3>Mozilla Firefox</h3>
+      <article class="summary shadow">
+        <h3 class="color-primary">Mozilla Firefox</h3>
         <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
       </article>
 
-      <article>
-        <h3>Microsoft Edge</h3>
+      <article class="summary shadow">
+        <h3 class="color-primary">Microsoft Edge</h3>
         <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
       </article>
     </main>
     <!-- Side Bar -->
-    <aside>
+    <aside class="sidebar">
       <form>
-        <label>Search Blog</label>
+        <label style="font-size: 1rem;">Search Blog</label><br>
         <input type="search">
       </form>
       <h3>Recent Blog</h3>
@@ -44,10 +47,12 @@
         <li><a href="">Microsoft Edge</a></li>
       </ul>
     </aside>
+  </div>
+
     <!-- Footer Contents -->
-    <footer>
-      <p>@copy: All rights reserved</p>
-      <p><a href="mailto:example@example.com">example@example.com</a></p>
+    <footer id="footer">
+      &copy; All rights reserved
+      <a href="mailto:example@example.com">example@example.com</a>
     </footer>
   </body>
 </html>
